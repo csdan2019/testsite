@@ -1,0 +1,16 @@
+
+.carousel-inner {
+    /*height: 500px; OLD*/
+    /*background-color: #777; OLD*/
+
+    width:100%;
+    height:350px;
+}
+
+textarea {
+  resize: none;
+}
+
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
